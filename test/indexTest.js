@@ -339,7 +339,7 @@ describe("The payroll system", function () {
                 createTimeOutEvent.call(rec, timeOutStamp)
               })
             }) 
-            expect(calculatePayroll(employeeRecords)).to.eql(11880)
+            expect(calculatePayroll(employeeRecords)).to.eql(13080)
           })
         })
       })
